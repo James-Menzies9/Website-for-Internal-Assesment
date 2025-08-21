@@ -1,1 +1,45 @@
-# Website-for-Internal-Assesment
+<!DOCTYPE html>
+<!-- Declares the document type and version of HTML -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Sets the character encoding to UTF-8 for universal compatibility -->
+
+  <title>SPACE FIBERCRAFT</title>
+  <!-- Title shown in the browser tab -->
+
+  <link rel="stylesheet" href="Style_Space.css" />
+  <!-- Links to external CSS file for styling -->
+</head>
+
+<body>
+  <!-- Main content of the webpage starts here -->
+
+  <header>
+    <!-- Navigation menu with links to other pages -->
+    <a href="index.html">Home</a>
+    <a href="Donation_Rewerds.html">Donation products</a>
+    <a href="Payment_method.html">How to Donate</a>
+    <a href="Reviews.html">Reviews</a>
+  </header>
+
+  <main>
+    <!-- Central content section of the page -->
+
+    <h1>Welcome To SPACE Fibercraft</h1>
+    <!-- Main heading for the page -->
+
+    <img src="Images/Website_image1.gif" alt="Space gif">
+    <!-- Animated image to visually represent the theme -->
+
+    <p>
+      <!-- Introductory paragraph describing the server -->
+      Welcome to Space Fibercraft, a fast-paced PvP ARK server. Gear up, build smart,
+      and battle hard in a world where strategy and survival go hand in hand.
+      With active admins and balanced dino stats we deliver intense dino warfare
+      and base-building action without the grind. Join the fight—only where the strongest tribes
+      will dominate.
+    </p>
+  </main>
+</body>
+</html>
