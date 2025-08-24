@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #0d1b2a 0%, #000000 100%);
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+  overflow: hidden;
+    overflow-y: auto; /* Enables vertical scrolling */
+  height: 100vh;
+}
+
+
+img {
+  max-width: 1000px;
+  width: 50%;
+  top: 50%;
+  height: auto;
+  border: 2px solid #00f0ff;
+  display: block;
+  margin-right:auto ;
+  margin-left: auto;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 4em;
+  color:  #022c58;
+  border: #00f0ff;
+}
+
+
+p { 
+  text-align: center;
+  font-size: 30px;
+  color: #036c73;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.pack {
+  border: 2px solid #00f0ff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 50, 0.5);
+}
+
+.pack h2 {
+  color: #00f0ff;
+  margin-bottom: 10px;
+}
+
+.pack ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* vault-shop.css */
+
+body {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 20px;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.shop-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.shop-header h1 {
+  color: #00f0ff;
+  font-size: 2em;
+}
+
+.divider {
+  height: 4px;
+  background: linear-gradient(to right, #ff00ff, #00f0ff);
+  margin: 10px auto;
+  width: 60%;
+  border-radius: 2px;
+}
+
+.vault-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.vault-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 50, 0.5);
+  padding: 15px 20px;
+  border: 2px solid #00f0ff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00f0ff;
+}
+
+/* map-packs.css */
+
+body {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+  padding: 20px;
+  margin: 0;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #00f0ff;
+  margin-bottom: 40px;
+}
+
+.map-pack {
+  background-color: rgba(0, 0, 50, 0.5);
+  border: 2px solid #00f0ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px #00f0ff;
+}
+
+.map-pack h2 {
+  color: #ff00ff;
+  margin-bottom: 15px;
+}
+
+.map-pack ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.map-pack ul li::before {
+  content: "🟣 ";
+  margin-right: 5px;
+}
+
+.map-pack a {
+  color: #00ffcc;
+  text-decoration: underline;
+}
+
+.price {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #ffcc00;
+}
+
+.price span {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.disclaimer {
+  text-align: center;
+  margin-top: 40px;
+  font-style: italic;
+  color: #ff4444;
+}
+
+.map-pack-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Adds space between packs */
+}
+
